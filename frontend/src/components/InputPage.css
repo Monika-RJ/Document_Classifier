@@ -1,0 +1,47 @@
+.input-page {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-page h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .input-page textarea {
+    width: 80%;
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ff6b6b;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #fff8f8;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-page textarea:focus {
+    border-color: #ff6f61;
+  }
+  
+  .input-page button {
+    width: 40%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-page button:hover {
+    background-color: #ff8a71;
+  }
+  
