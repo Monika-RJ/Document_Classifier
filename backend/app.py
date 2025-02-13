@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import joblib
 from flask_cors import CORS
 import os
+import pyspark
 
 # Initialize Flask app
 app = Flask(__name__)
