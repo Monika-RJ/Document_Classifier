@@ -59,8 +59,6 @@ export default App;
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
-import Login from './components/Login';
-import Register from './components/Register';
 import InputPage from './components/InputPage';
 import PredictionPage from './components/PredictionPage';
 import './App.css';
@@ -85,8 +83,6 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
           <Route path="/input" element={<InputPage onSubmit={handlePrediction} />} />
           <Route path="/prediction" element={<PredictionPage prediction={prediction} />} />
         </Routes>

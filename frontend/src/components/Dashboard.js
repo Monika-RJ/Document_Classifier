@@ -7,8 +7,6 @@ function Dashboard() {
     <div className="dashboard">
       <h1>Welcome to the Document Classifier</h1>
       <div className="nav-links">
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
         <Link to="/input">Classify Text</Link>
       </div>
     </div>
