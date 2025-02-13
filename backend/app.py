@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)  # This allows cross-origin requests from React frontend
 
 # Load the trained model and vectorizer
-model = joblib.load('D:/Document classification/documentclassification/models/logistic_regression_model.pkl')
-vectorizer = joblib.load('D:/Document classification/documentclassification/models/tfidf_vectorizer.pkl')
+model = joblib.load('documentclassification/backend/models/logistic_regression_model.pkl')
+vectorizer = joblib.load('documentclassification/backend/models/tfidf_vectorizer.pkl')
 
 # Prediction route
 @app.route('/predict', methods=['POST'])
